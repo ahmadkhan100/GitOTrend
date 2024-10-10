@@ -103,7 +103,7 @@ const Header = ({ mode }) => {
         <div className="hidden md:flex ml-auto items-center text-base justify-center">
           {mode === 'wrapped' && (
             <a
-              href="https://www.producthunt.com/posts/github-wrapped-2023?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github&#0045;wrapped&#0045;2023"
+              href="https://www.producthunt.com/posts/github-wrapped-2023?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gb&#0045;wrapped&#0045;2023"
               target="_blank"
               rel="noopener noreferrer"
               className="mr-3"
