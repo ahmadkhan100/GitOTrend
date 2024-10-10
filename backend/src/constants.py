@@ -6,8 +6,8 @@ PROD = os.getenv("PROD", "False") == "True"
 PROJECT_ID = "github-334619"
 BACKEND_URL = "https://api.githubtrends.io" if PROD else "http://localhost:8000"
 
-OWNER = "avgupta456"
-REPO = "github-trends"
+OWNER = "ahmadkhan100"
+REPO = "gitotrend"
 
 # API
 # https://docs.github.com/en/rest/reference/rate-limit
@@ -47,8 +47,8 @@ DEFAULT_COLOR = "#858585"
 SENTRY_DSN = os.getenv("SENTRY_DSN", "")
 
 # TESTING
-TEST_USER_ID = "avgupta456"
-TEST_REPO = "github-trends"
+TEST_USER_ID = "ahmadkhan100"
+TEST_REPO = "gitotrend"
 TEST_TOKEN = os.getenv("AUTH_TOKEN", "")  # for authentication
 TEST_NODE_IDS = [
     "C_kwDOENp939oAKGM1MzdlM2QzMTZjMmEyZGIyYWU4ZWI0MmNmNjQ4YWEwNWQ5OTBiMjM",
