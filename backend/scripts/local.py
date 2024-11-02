@@ -8,6 +8,7 @@ from datetime import datetime
 # Add the parent directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 os.environ["LOCAL"] = "True"
+os.environ["LOCAL"] = "Process"
 
 # flake8: noqa E402
 
